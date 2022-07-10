@@ -184,6 +184,9 @@
             android:paddingLeft="@dimen/spacing_large"
             android:paddingRight="@dimen/spacing_large">
 
+
+
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -197,7 +200,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:minWidth="0dp"
-                android:text="MORE"
+                android:text="Plus"
                 android:textColor="@color/grey_60" />
 
         </LinearLayout>
@@ -208,6 +211,13 @@
             android:orientation="horizontal"
             android:padding="@dimen/spacing_medium"
             android:visibility="visible">
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/recyclerview_top_restaurant"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="6dp"-->
+<!--                android:padding="12dp" />-->
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
@@ -242,71 +252,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/spacing_medium"
-                android:layout_weight="1"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/image_4"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:background="@color/grey_40"
-                        android:scaleType="centerCrop" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:maxLines="1"
-                        android:padding="@dimen/spacing_large"
-                        android:singleLine="true"
-                        android:text="Quisque"
-
-                        android:textColor="@color/grey_90" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/spacing_medium"
-                android:layout_weight="1"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/image_5"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:background="@color/grey_40"
-                        android:scaleType="centerCrop" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:maxLines="1"
-                        android:padding="@dimen/spacing_large"
-                        android:singleLine="true"
-                        android:text="Aliquam ac elit"
-
-                        android:textColor="@color/grey_90" />
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
